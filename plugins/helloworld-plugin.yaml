@@ -1,7 +1,7 @@
 kind: "EntandoPlugin"
 apiVersion: "entando.org/v1"
 metadata:
-  name: "helloworld-plugin"
+  generateName: "helloworld-plugin"
 spec:
   image: jwhite101/hello-world:0.0.1-SNAPSHOT
   replicas: 1
